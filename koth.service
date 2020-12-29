@@ -1,11 +1,11 @@
 [Unit]
-Description=THM KOTH service
+Description=THM KoTH service
 
 [Service]
 User=root
 Group=root
-WorkingDirectory=/root
-ExecStart=/root/koth
+WorkingDirectory=/bin
+ExecStart=/bin/koth
 Restart=always
 RestartSec=5
 
